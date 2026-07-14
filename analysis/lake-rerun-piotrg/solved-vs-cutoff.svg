@@ -1,0 +1,226 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 1180">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<style>text{font-family:Inter,system-ui,sans-serif;fill:#172033}.title{font-size:26px;font-weight:700}.sub{font-size:14px;fill:#526071}.panel{font-size:18px;font-weight:650}.axis{font-size:12px;fill:#526071}.legend{font-size:14px;font-weight:600}.grid{stroke:#dce2ea;stroke-width:1}.frame{stroke:#738097;stroke-width:1.2;fill:none}.line{fill:none;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}.dot{stroke:#fff;stroke-width:1.5}</style>
+<text x="520.0" y="48" text-anchor="middle" class="title">Lake rerun: resource cutoff versus tasks solved</text>
+<text x="520.0" y="76" text-anchor="middle" class="sub">Only successful trials advance a curve; every line stops at its model's last observed success.</text>
+<line x1="350.0" y1="116" x2="380.0" y2="116" stroke="#2563eb" stroke-width="4"/>
+<text x="389.0" y="121" class="legend">GPT-5.6 Sol</text>
+<line x1="605.0" y1="116" x2="635.0" y2="116" stroke="#ea580c" stroke-width="4"/>
+<text x="644.0" y="121" class="legend">Claude Fable 5</text>
+<text x="115" y="166" class="panel">Wall-clock cutoff</text>
+<line x1="115.00" y1="190" x2="115.00" y2="435" class="grid"/>
+<text x="115.00" y="455" text-anchor="middle" class="axis">0</text>
+<line x1="178.08" y1="190" x2="178.08" y2="435" class="grid"/>
+<text x="178.08" y="455" text-anchor="middle" class="axis">1</text>
+<line x1="241.15" y1="190" x2="241.15" y2="435" class="grid"/>
+<text x="241.15" y="455" text-anchor="middle" class="axis">2</text>
+<line x1="304.23" y1="190" x2="304.23" y2="435" class="grid"/>
+<text x="304.23" y="455" text-anchor="middle" class="axis">3</text>
+<line x1="367.31" y1="190" x2="367.31" y2="435" class="grid"/>
+<text x="367.31" y="455" text-anchor="middle" class="axis">4</text>
+<line x1="430.38" y1="190" x2="430.38" y2="435" class="grid"/>
+<text x="430.38" y="455" text-anchor="middle" class="axis">5</text>
+<line x1="493.46" y1="190" x2="493.46" y2="435" class="grid"/>
+<text x="493.46" y="455" text-anchor="middle" class="axis">6</text>
+<line x1="556.54" y1="190" x2="556.54" y2="435" class="grid"/>
+<text x="556.54" y="455" text-anchor="middle" class="axis">7</text>
+<line x1="619.62" y1="190" x2="619.62" y2="435" class="grid"/>
+<text x="619.62" y="455" text-anchor="middle" class="axis">8</text>
+<line x1="682.69" y1="190" x2="682.69" y2="435" class="grid"/>
+<text x="682.69" y="455" text-anchor="middle" class="axis">9</text>
+<line x1="745.77" y1="190" x2="745.77" y2="435" class="grid"/>
+<text x="745.77" y="455" text-anchor="middle" class="axis">10</text>
+<line x1="808.85" y1="190" x2="808.85" y2="435" class="grid"/>
+<text x="808.85" y="455" text-anchor="middle" class="axis">11</text>
+<line x1="871.92" y1="190" x2="871.92" y2="435" class="grid"/>
+<text x="871.92" y="455" text-anchor="middle" class="axis">12</text>
+<line x1="935.00" y1="190" x2="935.00" y2="435" class="grid"/>
+<text x="935.00" y="455" text-anchor="middle" class="axis">13</text>
+<line x1="115" y1="435.00" x2="935" y2="435.00" class="grid"/>
+<text x="102" y="439.00" text-anchor="end" class="axis">0</text>
+<line x1="115" y1="386.00" x2="935" y2="386.00" class="grid"/>
+<text x="102" y="390.00" text-anchor="end" class="axis">14</text>
+<line x1="115" y1="337.00" x2="935" y2="337.00" class="grid"/>
+<text x="102" y="341.00" text-anchor="end" class="axis">29</text>
+<line x1="115" y1="288.00" x2="935" y2="288.00" class="grid"/>
+<text x="102" y="292.00" text-anchor="end" class="axis">43</text>
+<line x1="115" y1="239.00" x2="935" y2="239.00" class="grid"/>
+<text x="102" y="243.00" text-anchor="end" class="axis">58</text>
+<line x1="115" y1="190.00" x2="935" y2="190.00" class="grid"/>
+<text x="102" y="194.00" text-anchor="end" class="axis">72</text>
+<rect x="115" y="190" width="820" height="245" class="frame"/>
+<polyline points="115.00,435.00 115.00,428.86 178.08,428.86 178.08,427.36 241.15,427.36 241.15,426.90 304.23,426.90 304.23,424.78 367.31,424.78 367.31,422.38 430.38,422.38 430.38,412.09 493.46,412.09 493.46,400.10 556.54,400.10 556.54,394.30 619.62,394.30 619.62,347.01 682.69,347.01 682.69,327.34 745.77,327.34 745.77,269.91 808.85,269.91 808.85,248.47 871.92,248.47 871.92,199.42 935.00,199.42" stroke="#2563eb" class="line"/>
+<circle cx="178.08" cy="428.86" r="4" fill="#2563eb" class="dot"/>
+<circle cx="241.15" cy="427.36" r="4" fill="#2563eb" class="dot"/>
+<circle cx="304.23" cy="426.90" r="4" fill="#2563eb" class="dot"/>
+<circle cx="367.31" cy="424.78" r="4" fill="#2563eb" class="dot"/>
+<circle cx="430.38" cy="422.38" r="4" fill="#2563eb" class="dot"/>
+<circle cx="493.46" cy="412.09" r="4" fill="#2563eb" class="dot"/>
+<circle cx="556.54" cy="400.10" r="4" fill="#2563eb" class="dot"/>
+<circle cx="619.62" cy="394.30" r="4" fill="#2563eb" class="dot"/>
+<circle cx="682.69" cy="347.01" r="4" fill="#2563eb" class="dot"/>
+<circle cx="745.77" cy="327.34" r="4" fill="#2563eb" class="dot"/>
+<circle cx="808.85" cy="269.91" r="4" fill="#2563eb" class="dot"/>
+<circle cx="871.92" cy="248.47" r="4" fill="#2563eb" class="dot"/>
+<circle cx="935.00" cy="199.42" r="4" fill="#2563eb" class="dot"/>
+<polyline points="115.00,435.00 115.00,429.56 178.08,429.56 178.08,425.38 241.15,425.38 241.15,422.21 304.23,422.21 304.23,418.75 367.31,418.75 367.31,414.73 430.38,414.73 430.38,413.75 493.46,413.75 493.46,407.40 556.54,407.40 556.54,399.70 619.62,399.70 619.62,399.49 682.69,399.49 682.69,399.22 745.77,399.22 745.77,396.81 808.85,396.81 808.85,394.28 871.92,394.28 871.92,381.67 935.00,381.67" stroke="#ea580c" class="line"/>
+<circle cx="178.08" cy="429.56" r="4" fill="#ea580c" class="dot"/>
+<circle cx="241.15" cy="425.38" r="4" fill="#ea580c" class="dot"/>
+<circle cx="304.23" cy="422.21" r="4" fill="#ea580c" class="dot"/>
+<circle cx="367.31" cy="418.75" r="4" fill="#ea580c" class="dot"/>
+<circle cx="430.38" cy="414.73" r="4" fill="#ea580c" class="dot"/>
+<circle cx="493.46" cy="413.75" r="4" fill="#ea580c" class="dot"/>
+<circle cx="556.54" cy="407.40" r="4" fill="#ea580c" class="dot"/>
+<circle cx="619.62" cy="399.70" r="4" fill="#ea580c" class="dot"/>
+<circle cx="682.69" cy="399.49" r="4" fill="#ea580c" class="dot"/>
+<circle cx="745.77" cy="399.22" r="4" fill="#ea580c" class="dot"/>
+<circle cx="808.85" cy="396.81" r="4" fill="#ea580c" class="dot"/>
+<circle cx="871.92" cy="394.28" r="4" fill="#ea580c" class="dot"/>
+<circle cx="935.00" cy="381.67" r="4" fill="#ea580c" class="dot"/>
+<text x="525.0" y="484" text-anchor="middle" class="axis">Tasks solved</text>
+<text transform="translate(31 312.5) rotate(-90)" text-anchor="middle" class="axis">Cutoff (minutes)</text>
+<text x="115" y="493" class="panel">Per-task cost cutoff</text>
+<line x1="115.00" y1="517" x2="115.00" y2="762" class="grid"/>
+<text x="115.00" y="782" text-anchor="middle" class="axis">0</text>
+<line x1="178.08" y1="517" x2="178.08" y2="762" class="grid"/>
+<text x="178.08" y="782" text-anchor="middle" class="axis">1</text>
+<line x1="241.15" y1="517" x2="241.15" y2="762" class="grid"/>
+<text x="241.15" y="782" text-anchor="middle" class="axis">2</text>
+<line x1="304.23" y1="517" x2="304.23" y2="762" class="grid"/>
+<text x="304.23" y="782" text-anchor="middle" class="axis">3</text>
+<line x1="367.31" y1="517" x2="367.31" y2="762" class="grid"/>
+<text x="367.31" y="782" text-anchor="middle" class="axis">4</text>
+<line x1="430.38" y1="517" x2="430.38" y2="762" class="grid"/>
+<text x="430.38" y="782" text-anchor="middle" class="axis">5</text>
+<line x1="493.46" y1="517" x2="493.46" y2="762" class="grid"/>
+<text x="493.46" y="782" text-anchor="middle" class="axis">6</text>
+<line x1="556.54" y1="517" x2="556.54" y2="762" class="grid"/>
+<text x="556.54" y="782" text-anchor="middle" class="axis">7</text>
+<line x1="619.62" y1="517" x2="619.62" y2="762" class="grid"/>
+<text x="619.62" y="782" text-anchor="middle" class="axis">8</text>
+<line x1="682.69" y1="517" x2="682.69" y2="762" class="grid"/>
+<text x="682.69" y="782" text-anchor="middle" class="axis">9</text>
+<line x1="745.77" y1="517" x2="745.77" y2="762" class="grid"/>
+<text x="745.77" y="782" text-anchor="middle" class="axis">10</text>
+<line x1="808.85" y1="517" x2="808.85" y2="762" class="grid"/>
+<text x="808.85" y="782" text-anchor="middle" class="axis">11</text>
+<line x1="871.92" y1="517" x2="871.92" y2="762" class="grid"/>
+<text x="871.92" y="782" text-anchor="middle" class="axis">12</text>
+<line x1="935.00" y1="517" x2="935.00" y2="762" class="grid"/>
+<text x="935.00" y="782" text-anchor="middle" class="axis">13</text>
+<line x1="115" y1="762.00" x2="935" y2="762.00" class="grid"/>
+<text x="102" y="766.00" text-anchor="end" class="axis">$0.0</text>
+<line x1="115" y1="713.00" x2="935" y2="713.00" class="grid"/>
+<text x="102" y="717.00" text-anchor="end" class="axis">$1.6</text>
+<line x1="115" y1="664.00" x2="935" y2="664.00" class="grid"/>
+<text x="102" y="668.00" text-anchor="end" class="axis">$3.3</text>
+<line x1="115" y1="615.00" x2="935" y2="615.00" class="grid"/>
+<text x="102" y="619.00" text-anchor="end" class="axis">$4.9</text>
+<line x1="115" y1="566.00" x2="935" y2="566.00" class="grid"/>
+<text x="102" y="570.00" text-anchor="end" class="axis">$6.6</text>
+<line x1="115" y1="517.00" x2="935" y2="517.00" class="grid"/>
+<text x="102" y="521.00" text-anchor="end" class="axis">$8.2</text>
+<rect x="115" y="517" width="820" height="245" class="frame"/>
+<polyline points="115.00,762.00 115.00,754.83 178.08,754.83 178.08,752.92 241.15,752.92 241.15,751.99 304.23,751.99 304.23,751.03 367.31,751.03 367.31,750.27 430.38,750.27 430.38,739.41 493.46,739.41 493.46,721.67 556.54,721.67 556.54,721.11 619.62,721.11 619.62,687.90 682.69,687.90 682.69,672.68 745.77,672.68 745.77,605.13 808.85,605.13 808.85,578.39 871.92,578.39 871.92,526.42 935.00,526.42" stroke="#2563eb" class="line"/>
+<circle cx="178.08" cy="754.83" r="4" fill="#2563eb" class="dot"/>
+<circle cx="241.15" cy="752.92" r="4" fill="#2563eb" class="dot"/>
+<circle cx="304.23" cy="751.99" r="4" fill="#2563eb" class="dot"/>
+<circle cx="367.31" cy="751.03" r="4" fill="#2563eb" class="dot"/>
+<circle cx="430.38" cy="750.27" r="4" fill="#2563eb" class="dot"/>
+<circle cx="493.46" cy="739.41" r="4" fill="#2563eb" class="dot"/>
+<circle cx="556.54" cy="721.67" r="4" fill="#2563eb" class="dot"/>
+<circle cx="619.62" cy="721.11" r="4" fill="#2563eb" class="dot"/>
+<circle cx="682.69" cy="687.90" r="4" fill="#2563eb" class="dot"/>
+<circle cx="745.77" cy="672.68" r="4" fill="#2563eb" class="dot"/>
+<circle cx="808.85" cy="605.13" r="4" fill="#2563eb" class="dot"/>
+<circle cx="871.92" cy="578.39" r="4" fill="#2563eb" class="dot"/>
+<circle cx="935.00" cy="526.42" r="4" fill="#2563eb" class="dot"/>
+<polyline points="115.00,762.00 115.00,741.93 178.08,741.93 178.08,732.45 241.15,732.45 241.15,711.44 304.23,711.44 304.23,710.42 367.31,710.42 367.31,688.78 430.38,688.78 430.38,679.88 493.46,679.88 493.46,656.75 556.54,656.75 556.54,653.54 619.62,653.54 619.62,653.03 682.69,653.03 682.69,627.33 745.77,627.33 745.77,618.23 808.85,618.23 808.85,613.29 871.92,613.29 871.92,584.52 935.00,584.52" stroke="#ea580c" class="line"/>
+<circle cx="178.08" cy="741.93" r="4" fill="#ea580c" class="dot"/>
+<circle cx="241.15" cy="732.45" r="4" fill="#ea580c" class="dot"/>
+<circle cx="304.23" cy="711.44" r="4" fill="#ea580c" class="dot"/>
+<circle cx="367.31" cy="710.42" r="4" fill="#ea580c" class="dot"/>
+<circle cx="430.38" cy="688.78" r="4" fill="#ea580c" class="dot"/>
+<circle cx="493.46" cy="679.88" r="4" fill="#ea580c" class="dot"/>
+<circle cx="556.54" cy="656.75" r="4" fill="#ea580c" class="dot"/>
+<circle cx="619.62" cy="653.54" r="4" fill="#ea580c" class="dot"/>
+<circle cx="682.69" cy="653.03" r="4" fill="#ea580c" class="dot"/>
+<circle cx="745.77" cy="627.33" r="4" fill="#ea580c" class="dot"/>
+<circle cx="808.85" cy="618.23" r="4" fill="#ea580c" class="dot"/>
+<circle cx="871.92" cy="613.29" r="4" fill="#ea580c" class="dot"/>
+<circle cx="935.00" cy="584.52" r="4" fill="#ea580c" class="dot"/>
+<text x="525.0" y="811" text-anchor="middle" class="axis">Tasks solved</text>
+<text transform="translate(31 639.5) rotate(-90)" text-anchor="middle" class="axis">Cutoff (USD)</text>
+<text x="115" y="820" class="panel">Per-task token cutoff</text>
+<line x1="115.00" y1="844" x2="115.00" y2="1089" class="grid"/>
+<text x="115.00" y="1109" text-anchor="middle" class="axis">0</text>
+<line x1="178.08" y1="844" x2="178.08" y2="1089" class="grid"/>
+<text x="178.08" y="1109" text-anchor="middle" class="axis">1</text>
+<line x1="241.15" y1="844" x2="241.15" y2="1089" class="grid"/>
+<text x="241.15" y="1109" text-anchor="middle" class="axis">2</text>
+<line x1="304.23" y1="844" x2="304.23" y2="1089" class="grid"/>
+<text x="304.23" y="1109" text-anchor="middle" class="axis">3</text>
+<line x1="367.31" y1="844" x2="367.31" y2="1089" class="grid"/>
+<text x="367.31" y="1109" text-anchor="middle" class="axis">4</text>
+<line x1="430.38" y1="844" x2="430.38" y2="1089" class="grid"/>
+<text x="430.38" y="1109" text-anchor="middle" class="axis">5</text>
+<line x1="493.46" y1="844" x2="493.46" y2="1089" class="grid"/>
+<text x="493.46" y="1109" text-anchor="middle" class="axis">6</text>
+<line x1="556.54" y1="844" x2="556.54" y2="1089" class="grid"/>
+<text x="556.54" y="1109" text-anchor="middle" class="axis">7</text>
+<line x1="619.62" y1="844" x2="619.62" y2="1089" class="grid"/>
+<text x="619.62" y="1109" text-anchor="middle" class="axis">8</text>
+<line x1="682.69" y1="844" x2="682.69" y2="1089" class="grid"/>
+<text x="682.69" y="1109" text-anchor="middle" class="axis">9</text>
+<line x1="745.77" y1="844" x2="745.77" y2="1089" class="grid"/>
+<text x="745.77" y="1109" text-anchor="middle" class="axis">10</text>
+<line x1="808.85" y1="844" x2="808.85" y2="1089" class="grid"/>
+<text x="808.85" y="1109" text-anchor="middle" class="axis">11</text>
+<line x1="871.92" y1="844" x2="871.92" y2="1089" class="grid"/>
+<text x="871.92" y="1109" text-anchor="middle" class="axis">12</text>
+<line x1="935.00" y1="844" x2="935.00" y2="1089" class="grid"/>
+<text x="935.00" y="1109" text-anchor="middle" class="axis">13</text>
+<line x1="115" y1="1089.00" x2="935" y2="1089.00" class="grid"/>
+<text x="102" y="1093.00" text-anchor="end" class="axis">0.0</text>
+<line x1="115" y1="1040.00" x2="935" y2="1040.00" class="grid"/>
+<text x="102" y="1044.00" text-anchor="end" class="axis">1.1</text>
+<line x1="115" y1="991.00" x2="935" y2="991.00" class="grid"/>
+<text x="102" y="995.00" text-anchor="end" class="axis">2.2</text>
+<line x1="115" y1="942.00" x2="935" y2="942.00" class="grid"/>
+<text x="102" y="946.00" text-anchor="end" class="axis">3.3</text>
+<line x1="115" y1="893.00" x2="935" y2="893.00" class="grid"/>
+<text x="102" y="897.00" text-anchor="end" class="axis">4.4</text>
+<line x1="115" y1="844.00" x2="935" y2="844.00" class="grid"/>
+<text x="102" y="848.00" text-anchor="end" class="axis">5.5</text>
+<rect x="115" y="844" width="820" height="245" class="frame"/>
+<polyline points="115.00,1089.00 115.00,1086.34 178.08,1086.34 178.08,1085.52 241.15,1085.52 241.15,1083.60 304.23,1083.60 304.23,1083.28 367.31,1083.28 367.31,1082.37 430.38,1082.37 430.38,1076.88 493.46,1076.88 493.46,1070.55 556.54,1070.55 556.54,1054.19 619.62,1054.19 619.62,1051.69 682.69,1051.69 682.69,1007.29 745.77,1007.29 745.77,1004.33 808.85,1004.33 808.85,907.46 871.92,907.46 871.92,853.42 935.00,853.42" stroke="#2563eb" class="line"/>
+<circle cx="178.08" cy="1086.34" r="4" fill="#2563eb" class="dot"/>
+<circle cx="241.15" cy="1085.52" r="4" fill="#2563eb" class="dot"/>
+<circle cx="304.23" cy="1083.60" r="4" fill="#2563eb" class="dot"/>
+<circle cx="367.31" cy="1083.28" r="4" fill="#2563eb" class="dot"/>
+<circle cx="430.38" cy="1082.37" r="4" fill="#2563eb" class="dot"/>
+<circle cx="493.46" cy="1076.88" r="4" fill="#2563eb" class="dot"/>
+<circle cx="556.54" cy="1070.55" r="4" fill="#2563eb" class="dot"/>
+<circle cx="619.62" cy="1054.19" r="4" fill="#2563eb" class="dot"/>
+<circle cx="682.69" cy="1051.69" r="4" fill="#2563eb" class="dot"/>
+<circle cx="745.77" cy="1007.29" r="4" fill="#2563eb" class="dot"/>
+<circle cx="808.85" cy="1004.33" r="4" fill="#2563eb" class="dot"/>
+<circle cx="871.92" cy="907.46" r="4" fill="#2563eb" class="dot"/>
+<circle cx="935.00" cy="853.42" r="4" fill="#2563eb" class="dot"/>
+<polyline points="115.00,1089.00 115.00,1079.81 178.08,1079.81 178.08,1078.81 241.15,1078.81 241.15,1076.68 304.23,1076.68 304.23,1071.38 367.31,1071.38 367.31,1063.64 430.38,1063.64 430.38,1058.91 493.46,1058.91 493.46,1058.06 556.54,1058.06 556.54,1054.43 619.62,1054.43 619.62,1053.60 682.69,1053.60 682.69,1042.01 745.77,1042.01 745.77,1039.79 808.85,1039.79 808.85,1020.78 871.92,1020.78 871.92,1009.24 935.00,1009.24" stroke="#ea580c" class="line"/>
+<circle cx="178.08" cy="1079.81" r="4" fill="#ea580c" class="dot"/>
+<circle cx="241.15" cy="1078.81" r="4" fill="#ea580c" class="dot"/>
+<circle cx="304.23" cy="1076.68" r="4" fill="#ea580c" class="dot"/>
+<circle cx="367.31" cy="1071.38" r="4" fill="#ea580c" class="dot"/>
+<circle cx="430.38" cy="1063.64" r="4" fill="#ea580c" class="dot"/>
+<circle cx="493.46" cy="1058.91" r="4" fill="#ea580c" class="dot"/>
+<circle cx="556.54" cy="1058.06" r="4" fill="#ea580c" class="dot"/>
+<circle cx="619.62" cy="1054.43" r="4" fill="#ea580c" class="dot"/>
+<circle cx="682.69" cy="1053.60" r="4" fill="#ea580c" class="dot"/>
+<circle cx="745.77" cy="1042.01" r="4" fill="#ea580c" class="dot"/>
+<circle cx="808.85" cy="1039.79" r="4" fill="#ea580c" class="dot"/>
+<circle cx="871.92" cy="1020.78" r="4" fill="#ea580c" class="dot"/>
+<circle cx="935.00" cy="1009.24" r="4" fill="#ea580c" class="dot"/>
+<text x="525.0" y="1138" text-anchor="middle" class="axis">Tasks solved</text>
+<text transform="translate(31 966.5) rotate(-90)" text-anchor="middle" class="axis">Cutoff (million tokens)</text>
+</svg>
