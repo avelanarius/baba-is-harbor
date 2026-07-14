@@ -1,0 +1,17 @@
+job_name: claude-fable-5-high-codex-smoke-latest-opaque-reasoning
+jobs_dir: jobs
+n_attempts: 1
+
+orchestrator:
+  n_concurrent_trials: 1
+
+datasets:
+  - path: tasks
+    task_names: ["stage-00-level-00"]
+
+agents:
+  - import_path: openrouter_codex:OpenRouterCodex
+    model_name: anthropic/claude-fable-5
+    override_timeout_sec: 3600
+    kwargs:
+      reasoning_effort: high

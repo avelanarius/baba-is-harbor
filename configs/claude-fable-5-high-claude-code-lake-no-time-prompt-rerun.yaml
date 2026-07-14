@@ -1,0 +1,35 @@
+job_name: claude-fable-5-high-claude-code-lake-no-time-prompt-rerun
+jobs_dir: jobs
+n_attempts: 1
+
+# Eight distinct levels may run concurrently; this is not pass@k.
+orchestrator:
+  n_concurrent_trials: 8
+
+datasets:
+  - path: tasks
+    task_names:
+      - stage-01-bonus-00
+      - stage-01-bonus-01
+      - stage-01-level-01
+      - stage-01-level-02
+      - stage-01-level-03
+      - stage-01-level-04
+      - stage-01-level-05
+      - stage-01-level-06
+      - stage-01-level-07
+      - stage-01-level-08
+      - stage-01-level-10
+      - stage-01-level-11
+      - stage-01-level-12
+      - stage-01-level-13
+
+agents:
+  - import_path: openrouter_claude_code:OpenRouterClaudeCode
+    model_name: anthropic/claude-fable-5
+    # Harbor requires a finite float. One year is effectively unbounded here.
+    override_timeout_sec: 31536000
+
+environment:
+  type: docker
+  force_build: true

@@ -1,0 +1,40 @@
+job_name: gpt56-sol-high-codex-lake-full-engine-exact-rerun
+jobs_dir: jobs
+n_attempts: 1
+
+# Run up to eight distinct levels concurrently. This is trial concurrency,
+# not pass@k: n_attempts remains exactly one above.
+orchestrator:
+  n_concurrent_trials: 8
+
+datasets:
+  - path: tasks
+    task_names:
+      - stage-01-bonus-00
+      - stage-01-bonus-01
+      - stage-01-level-01
+      - stage-01-level-02
+      - stage-01-level-03
+      - stage-01-level-04
+      - stage-01-level-05
+      - stage-01-level-06
+      - stage-01-level-07
+      - stage-01-level-08
+      - stage-01-level-10
+      - stage-01-level-11
+      - stage-01-level-12
+      - stage-01-level-13
+
+agents:
+  - import_path: openrouter_codex:OpenRouterCodex
+    model_name: openai/gpt-5.6-sol
+    # Harbor requires a finite float. One year is effectively unbounded here.
+    override_timeout_sec: 31536000
+    kwargs:
+      reasoning_effort: high
+
+# The simulator and copied game modules are part of each task image. Force a
+# rebuild so no image from the invalid partial-engine run can be reused.
+environment:
+  type: docker
+  force_build: true

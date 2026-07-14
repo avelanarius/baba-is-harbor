@@ -1,0 +1,18 @@
+job_name: claude-fable-5-high-codex-burglary-portable-tools
+jobs_dir: jobs
+n_attempts: 1
+
+orchestrator:
+  n_concurrent_trials: 1
+
+datasets:
+  - path: tasks
+    task_names: ["stage-01-level-13"]
+
+agents:
+  - import_path: openrouter_codex:OpenRouterCodex
+    model_name: anthropic/claude-fable-5
+    # Harbor requires a finite float. One year is effectively unbounded here.
+    override_timeout_sec: 31536000
+    kwargs:
+      reasoning_effort: high

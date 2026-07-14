@@ -1,0 +1,15 @@
+job_name: claude-fable-5-high-claude-code-openrouter-smoke
+jobs_dir: jobs
+n_attempts: 1
+
+orchestrator:
+  n_concurrent_trials: 1
+
+datasets:
+  - path: tasks
+    task_names: ["stage-00-level-00"]
+
+agents:
+  - import_path: openrouter_claude_code:OpenRouterClaudeCode
+    model_name: anthropic/claude-fable-5
+    override_timeout_sec: 3600

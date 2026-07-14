@@ -1,0 +1,18 @@
+job_name: gpt56-sol-high-codex-sunken-temple
+jobs_dir: jobs
+n_attempts: 1
+
+orchestrator:
+  n_concurrent_trials: 1
+
+datasets:
+  - path: tasks
+    task_names: ["stage-01-bonus-01"]
+
+agents:
+  - import_path: openrouter_codex:OpenRouterCodex
+    model_name: openai/gpt-5.6-sol
+    # Harbor requires a finite float. One year is effectively unbounded here.
+    override_timeout_sec: 31536000
+    kwargs:
+      reasoning_effort: high
